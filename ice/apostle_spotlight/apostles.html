@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apostles Spotlights</title>
+  <style>
+    body {
+      background-color: #e8eced;
+      font-family: Arial, sans-serif;
+      font-weight: 100;
+      margin: 50px;
+      padding: 50px;
+      color: white;
+      text-align: center;
+    }
+
+    .background-frame {
+      background-image: url("images/christus.webp");
+      background-size: 155%;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      width: 800px;
+      padding: 20px 30px;
+      margin: 40px auto;
+      border: 15px solid black;
+      border-radius: 25px;
+
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1, h3 {
+      font-weight: 100;
+      margin: 5px 0;
+    }
+
+    h1 {
+      font-size: 36px;
+    }
+
+    h3 {
+      font-size: 24px;
+    }
+
+    .presidency {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      gap: 30px;
+      margin-top: 5px;
+    }
+
+    .apostles {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin-top: 15px;
+    }
+
+    .presidency img,
+    .apostles img {
+      border-radius: 50%;
+      border: 6px solid white;
+      object-fit: cover;
+    }
+
+    .presidency img {
+      width: 100px;
+      height: 100px;
+    }
+
+    .presidency img.middle {
+      width: 120px;
+      height: 120px;
+    }
+
+    .apostles img {
+      width: 80px;
+      height: 80px;
+    }
+    .apostles img:hover {
+      transform: scale(1.1);
+      border-color:aqua;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="background-frame">
+    <h1>First Presidency</h1>
+    <div class="presidency">
+      <img src="images/oaks.webp" alt="Elder Oaks" />
+      <img src="images/nelson.webp" alt="Prophet Nelson" class="middle" />
+      <img src="images/eyring.webp" alt="Elder Eyring" />
+    </div>
+
+    <h3>Quorum of the Twelve Apostles</h3>
+    <div class="apostles">
+      <img src="images/holland.webp" alt="Elder Holland" />
+      <img src="images/uchtdorf.webp" alt="Elder Uchtdorf" />
+      <img src="images/bednar.webp" alt="Elder Bednar" />
+      <img src="images/cook.webp" alt="Elder Cook" />
+      <img src="images/christofferson.webp" alt="Elder Christofferson" />
+      <img src="images/anderson.webp" alt="Elder Anderson" />
+      <img src="images/rasband.webp" alt="Elder Rasband" />
+      <img src="images/stevenson.webp" alt="Elder Stevenson" />
+      <img src="images/renlund.webp" alt="Elder Renlund" />
+      <img src="images/gong.webp" alt="Elder Gong" />
+      <img src="images/soares.webp" alt="Elder Soares" />
+      <img src="images/kearon.webp" alt="Elder Kearon" />
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+
